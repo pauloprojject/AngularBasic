@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angularfirebase-bd61e": {
+      "hosting": {
+        "myApp": [
+          "angularfirebase-bd61e"
+        ]
+      }
+    }
+  }
+}
