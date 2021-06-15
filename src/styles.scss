@@ -5,4 +5,28 @@
 @include nb-install() {
   @include nb-theme-global();
 };
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+app-root{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.layoyt-container, .layout{
+  width: 100vw;
+}
+nb-layout-column{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
 /* You can add global styles to this file, and also import other style files */

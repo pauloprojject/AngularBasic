@@ -1,13 +1,21 @@
 main {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 25vw 25vw 25vw;
     grid-gap: 0px;
 }
   
 app-square {
     border: 1px gray solid;
-    height: 200px;
+    height: 25vw;
     button{
         background-color: #3366ff;
+    }
+}
+@media screen and (min-width: 1024px){
+    main{
+        grid-template-columns: 10.416666666666668vw 10.416666666666668vw 10.416666666666668vw;
+    }
+    app-square{
+        height: 10.416666666666668vw;
     }
 }
